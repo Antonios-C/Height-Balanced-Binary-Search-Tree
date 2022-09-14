@@ -1,0 +1,10 @@
+int calcBalance(Tnode *node);
+int max(int v1, int v2);
+int getHeight(Tnode *node);
+Tnode *insertNode(Tnode *node, int key);
+Tnode *createNode(int key);
+Tnode *rightRotate(Tnode *node);
+Tnode *leftRotate(Tnode *node);
+Tnode *minValueNode(Tnode *node);
+Tnode *deleteNode(Tnode *node, int key);
+void preOrderBinary(Tnode *node, FILE *fileName);
