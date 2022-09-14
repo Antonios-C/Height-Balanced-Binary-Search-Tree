@@ -14,20 +14,6 @@ gcc -std=c99 -Wvla -Wall -Wshadow -g *.c -o tree
 
 - "-b" flag means that you are building the tree
 
-./tree -e tree input file
-
-- "-e" flag means that you are evaluating the tree
-- the result with me 3 integers
-- 1st integer indicates validity of input file
-   - if file cannot be opended value is -1 
-   - if file can be opended but wrong file type value is 0 
-   - if the file can be opended and correct file type value is 1
-- 2nd integer indicates whether the tree is a Binary Search Tree (BST)
-   - if tree is BST value is 1
-   - if tree not BST value is 0
-- 3rd integer indicates whether the tree is height balanced
-   - if tree is height balanced value is 1
-   - if tree is not height balanced value is 0
 
 ## Example Files 
 
