@@ -29,6 +29,7 @@ gcc -std=c99 -Wvla -Wall -Wshadow -g *.c -o tree
    - if tree is height balanced value is 1
    - if tree is not height balanced value is 0
 
+## Example Files 
 
 ### operations_input_file 
 - A file consiting of a key (int) and an ASCII character (char) of either 'i' or 'd'. 
@@ -42,3 +43,10 @@ gcc -std=c99 -Wvla -Wall -Wshadow -g *.c -o tree
    - 1 : right child node exist
    - 2 : left child node exist
    - 3 : both left and right child nodes exist
+
+### Provided example executions 
+- Operations_input_file's : ops0.b, ops1.b
+   - Text file equivalents are also provided : ops0.txt , ops1.txt
+- Tree_output_file : tree0.b, tree1.b 
+   - This are expected outputs files, used to compare if program is working as expected 
+   - Text file equivalents are also provided : tree0.txt , tree1.txt
